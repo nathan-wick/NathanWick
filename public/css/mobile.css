@@ -1,20 +1,4 @@
 @media screen and (max-width:1000px) {
-    h1 {
-        font-size: 104px;
-    }
-
-    p {
-        font-size: 32px;
-        line-height: 56px;
-        padding: 24px;
-    }
-
-    button {
-        border-radius: 16px;
-        font-size: 32px;
-        margin: 16px;
-        padding: 16px 24px;
-    }
 
     .col-left, .col-right {
         float: left;
@@ -25,9 +9,5 @@
     .logo {
         max-height: 60vw;
         max-width: 60vw;
-    }
-
-    .bold {
-        font-size: 44px;
     }
 }
