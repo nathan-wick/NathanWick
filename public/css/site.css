@@ -1,5 +1,5 @@
 html {
-    background-color: #F5F5F5;
+    background-color: #000000;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0px;
@@ -68,17 +68,40 @@ button:active {
 	color: #000000;
 }
 
-.container-cover {
-    height: 86vh;
-    width: 100vw;
+.content-container {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
 }
 
-.cover-parallax {
-    height: 100vh;
-    position: fixed;
-    object-fit: cover;
-    width: 100vw;
+header {
+    align-items: center;
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    position: relative;
+    transform-style: preserve-3d;
     z-index: -1;
+}
+
+.background, .foreground {
+    object-fit: cover;
+    position: absolute;
+}
+
+.background {
+    background-image: url("../img/tile-background.png");
+    background-repeat: repeat;
+    height: 110%;
+    transform: translateZ(-20px) scale(3);
+    width: 110%;
+}
+
+.foreground {
+    top: 40%;
+    transform: translateZ(-5px) scale(1.5);
+    width: 50%;
 }
 
 .row {

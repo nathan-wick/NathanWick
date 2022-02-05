@@ -1,5 +1,10 @@
 @media screen and (max-width:1000px) {
 
+    .foreground {
+        top: 50%;
+        width: 120%;
+    }
+
     .col-left, .col-right {
         float: left;
         text-align: center;
