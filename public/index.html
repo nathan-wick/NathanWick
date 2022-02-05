@@ -17,15 +17,14 @@
                 <h1>Nathan Wick</h1>
             </div>
             <div class="col-right">
-                <button class="button-secondary">Home</button>
-                <button class="button-secondary">Blog</button>
-                <button class="button-secondary">Contact</button>
+                <button class="button-secondary" onclick="location.href='https://www.linkedin.com/in/n8wck/';">LinkedIn</button>
+                <button class="button-secondary" onclick="location.href='https://github.com/nathanwick2001';">GitHub</button>
             </div>
         </div>
     </nav>
 
     <div class="container-cover">
-        <img class="cover-parallax" src="img/home-bg.png" alt="Background Image With Nathan's Face">
+        <img class="cover-parallax" src="img/background.png" alt="Background Image With Nathan's Face">
     </div>
 
     <svg id="visual" class="section-transition" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +41,7 @@
     </svg>
     <section id="career-objective" class="bg-FFFFFF">
         <div class="row">
-            <h1>Career Objective</h1>
+            <h1>About</h1>
             <p>Problem solver and productive communicator. Eager to prove my value and talent. Motivated to advance and
                 expand my skills through mentorship and challenging projects.</p>
         </div>
@@ -66,10 +65,15 @@
     </svg>
     <div id="resume-nav" class="bg-06BEE1">
         <div class="row" style="padding: 14px;">
-            <button class="button-secondary" onclick="location.href='#education';">Education</button>
-            <button class="button-secondary" onclick="location.href='#projects';">Projects</button>
-            <button class="button-secondary" onclick="location.href='#experience';">Experience</button>
-            <button class="button-secondary" onclick="location.href='#skills';">Skills</button>
+            <div class="col-left">
+                <h1>Resume</h1>
+            </div>
+            <div class="col-right">
+                <button class="button-secondary" onclick="location.href='#education';">Education</button>
+                <button class="button-secondary" onclick="location.href='#projects';">Projects</button>
+                <button class="button-secondary" onclick="location.href='#experience';">Experience</button>
+                <button class="button-secondary" onclick="location.href='#skills';">Skills</button>
+            </div>
         </div>
     </div>
 
@@ -98,10 +102,8 @@
                 <img class="logo" src="img/uc-logo.png" alt="University of Cincinnati Logo">
             </div>
             <div class="col-right">
-                <p><span class="bold">Bachelor of Science, Software Development</span></p>
-                <p>• University of Cincinnati (UC), Cincinnati, OH | May 2024
-                    <button onclick="location.href='https://www.uc.edu/';">Go To Website</button>
-                </p>
+                <p class="bold">Bachelor of Science, Software Development</p>
+                <p>• University of Cincinnati (UC), Cincinnati, OH | May 2024</p>
                 <p>• GPA: 3.5</p>
                 <p>• Featured Courses: Web Server App Dev, Database Management 2, and Java Software Dev 2
                     <button onclick="location.href='https://docs.google.com/spreadsheets/d/1kmhUGFOiWqoJUihMK9swr8XeBOUFWUziej6FKkOm5uE/edit?usp=sharing';">View All (48) Courses</button>
@@ -121,7 +123,7 @@
             </div>
             <div class="col-right">
                 <p><span class="bold">Customer Service Web App</span>
-                    <button onclick="location.href='https://sprost.com/';">Go To Website</button>
+                    <button onclick="location.href='https://sprost.com/';">Open Web App</button>
                 </p>
                 <p>• Programmed with HTML, JS, CSS, and Node.JS to function on all devises</p>
                 <p>• Implemented user authentication with Google so users can login with their Google Account</p>
@@ -130,11 +132,11 @@
         </div>
         <div class="row bg-FFFFFF" style="padding-top: 14px;">
             <div class="col-left" style="text-align: center;">
-                <img class="logo" src="img/sprost.png" alt="Personal Website">
+                <img class="logo" src="img/nathan-wick.png" alt="Nathan Wick's Portrait">
             </div>
             <div class="col-right">
                 <p><span class="bold">Personal Website</span>
-                    <button onclick="location.href='https://nathanwick.com/';">Go To Website</button>
+                    <button onclick="location.href='https://github.com/nathanwick2001/NathanWick';">View GitHub Respository</button>
                 </p>
                 <p>• Written dozens of helpful articles to help thousands of people learn Software Development</p>
                 <p>• Designed for easy navigation and appealing aesthetics to improve user experience</p>
@@ -152,10 +154,8 @@
                 <img class="logo" src="img/ms-logo.png" alt="Marketing Savage LLC Logo">
             </div>
             <div class="col-right">
-                <p><span class="bold">Personal Assistant</span></p>
-                <p>• Marketing Savage LLC, Centerville, OH | March 2020 - January 2022
-                    <button onclick="location.href='https://www.marketingsavage.com/';">Go To Website</button>
-                </p>
+                <p class="bold">Personal Assistant</p>
+                <p>• Marketing Savage LLC, Centerville, OH | March 2020 - January 2022</p>
                 <p>• Designed dozens of business processes to automate repetitive tasks and lower the average project
                     turnaround time by 50%</p>
                 <p>• Troubleshooted hundreds of technology-related problems to help myself, co-workers, and clients</p>
@@ -173,7 +173,7 @@
                 <img class="logo" src="img/apple.png" alt="Apple Logo">
             </div>
             <div class="col-right">
-                <p><span class="bold">Apple Application Development</span></p>
+                <p class="bold">Apple Application Development</p>
                 <p>• Language: Swift</p>
                 <p>• Tool: Xcode</p>
             </div>
@@ -183,7 +183,7 @@
                 <img class="logo" src="img/android.png" alt="Android Logo">
             </div>
             <div class="col-right">
-                <p><span class="bold">Android Application Development</span></p>
+                <p class="bold">Android Application Development</p>
                 <p>• Languages: Kotlin and Java</p>
                 <p>• Tools: Android Studio</p>
             </div>
@@ -193,7 +193,7 @@
                 <img class="logo" src="img/world-wide-web.png" alt="Web Logo">
             </div>
             <div class="col-right">
-                <p><span class="bold">Web Application Development</span></p>
+                <p class="bold">Web Application Development</p>
                 <p>• Languages: HTML5/XHTML, CSS, JavaScript, and SQL</p>
                 <p>• Tools: Visual Studio, GitHub, .Net, SQL Server, and Google Firebase</p>
             </div>
