@@ -1,7 +1,7 @@
 @media screen and (max-width:1000px) {
 
     .foreground {
-        top: 50%;
+        top: 100px;
         width: 120%;
     }
 

@@ -91,15 +91,13 @@ header {
 }
 
 .background {
-    background-image: url("../img/tile-background.png");
-    background-repeat: repeat;
     height: 110%;
     transform: translateZ(-20px) scale(3);
     width: 110%;
 }
 
 .foreground {
-    top: 40%;
+    top: 80px;
     transform: translateZ(-5px) scale(1.5);
     width: 50%;
 }
