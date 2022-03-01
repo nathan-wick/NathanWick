@@ -97,7 +97,7 @@ header {
 }
 
 .foreground {
-    top: 80px;
+    top: 40px;
     transform: translateZ(-5px) scale(1.5);
     width: 50%;
 }

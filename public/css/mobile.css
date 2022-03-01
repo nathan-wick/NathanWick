@@ -1,5 +1,9 @@
 @media screen and (max-width:1000px) {
 
+    button {
+        width: 80vw;
+    }
+
     .foreground {
         top: 100px;
         width: 120%;
