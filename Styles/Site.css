@@ -28,7 +28,7 @@
 }
 
 /* Mobile Styles */
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     #Header, #Articles {
         background-image: none;
         background-color: #010D28;
