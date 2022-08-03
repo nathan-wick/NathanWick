@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    min-height: 94vh;
 }
 
 .btn-primary {
@@ -12,4 +13,29 @@
 }
 .btn-primary:hover {
 	background-color: #1768AC;
+}
+
+#Header {
+    background-image: url(../Images/HomeBackground.png);
+}
+
+#Projects {
+    background-image: url(../Images/ProjectsBackground.jpeg);
+}
+
+#Articles {
+    background-image: url(../Images/ArticlesBackground.jpeg);
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    #Header, #Articles {
+        background-image: none;
+        background-color: #010D28;
+    }
+
+    #Projects {
+        background-image: none;
+        background-color: #F5F5F5;
+    }
 }
