@@ -1,0 +1,19 @@
+.parallax {
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.spacer {
+	aspect-ratio: 900/100;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.flip {
+	transform: rotate(180deg);
+}
