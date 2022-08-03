@@ -6,14 +6,10 @@
     position: relative;
 }
 
-.spacer {
-	aspect-ratio: 900/100;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	width: 100%;
+.btn-primary {
+	background-color: #06BEE1;
+	border: none;
 }
-
-.flip {
-	transform: rotate(180deg);
+.btn-primary:hover {
+	background-color: #1768AC;
 }
